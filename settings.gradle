@@ -1,2 +1,10 @@
 rootProject.name = 'boilerPlate'
+include 'core'
+include 'apps'
+findProject(':apps:app-api')?.name = 'app-api'
+include 'apps:app-api'
+findProject(':domains:domain-goods')?.name = 'domain-goods'
+include 'domains'
+include 'domains:domain-goods'
+findProject(':domains:domain-goods')?.name = 'domain-goods'
 

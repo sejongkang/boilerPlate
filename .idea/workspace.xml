@@ -5,13 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a92cb680-2cf8-4da0-a8eb-63c66fa57168" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/GoodsServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/Service/GoodsAppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/request/GoodsItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/request/GoodsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/response/GoodsConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/response/GoodsItemResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/response/GoodsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/sj/plate/core/type/EnumType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/sj/plate/core/util/MapperUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/entity/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/entity/GoodsItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/repository/GoodsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +40,46 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/domains">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/core">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="boilerPlate" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="boilerPlate" type="f1a62948:ProjectNode" />
+                <item name="core" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="boilerPlate" type="f1a62948:ProjectNode" />
+                <item name="core" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M7b7kBBrUS8yx3g6co4qgAbCEz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,9 +93,41 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/kangsejong/IdeaProjects/boilerPlate/domains/domain-goods/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.25661677",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/domains/domain-goods/src/main/java" />
+      <recent name="$PROJECT_DIR$/apps/app-api/src/main/resources" />
+      <recent name="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/domain-goods/src/main/java/com/sj/plate/goods" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps2" />
+      <recent name="$PROJECT_DIR$/domains" />
+      <recent name="$PROJECT_DIR$/apps" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GoodsServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="boilerPlate.apps.app-api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.plate.GoodsServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677121405581</updated>
-      <workItem from="1677121406975" duration="9000" />
+      <workItem from="1677121406975" duration="8662000" />
     </task>
     <servers />
   </component>

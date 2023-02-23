@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+jar { enabled = true }
+
+group 'com.sj'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.springframework.data:spring-data-commons:${springBootVersion}"
+}
+
+test {
+    useJUnitPlatform()
+}
