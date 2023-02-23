@@ -1,17 +1,21 @@
 plugins {
-    id 'java'
+	id 'io.spring.dependency-management'
+	id 'java'
 }
+
+group 'com.sj.plate'
+version '1.0-SNAPSHOT'
+
+bootJar { enabled = false }
 jar { enabled = true }
 
-group 'com.sj'
-version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation "org.springframework.data:spring-data-commons:${springBootVersion}"
+    implementation "org.springframework.data:spring-data-commons"
 }
 
 test {

@@ -7,8 +7,10 @@
     <list default="true" id="a92cb680-2cf8-4da0-a8eb-63c66fa57168" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/app-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/apps/app-api/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/Service/GoodsAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/Service/GoodsAppService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/app-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/app-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/domain-goods/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/domains/domain-goods/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/entity/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/entity/Goods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677121405581</updated>
-      <workItem from="1677121406975" duration="10449000" />
+      <workItem from="1677121406975" duration="12793000" />
     </task>
     <servers />
   </component>
