@@ -5,31 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a92cb680-2cf8-4da0-a8eb-63c66fa57168" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/GoodsServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/Service/GoodsAppService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/request/GoodsItemRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/request/GoodsRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/response/GoodsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/response/GoodsItemResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/response/GoodsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/app-api/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/sj/plate/core/type/EnumType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/sj/plate/core/util/MapperUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/entity/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/entity/GoodsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/repository/GoodsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domains/domain-goods/src/main/java/com/sj/plate/goods/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/apps/app-api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/Service/GoodsAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/app-api/src/main/java/com/sj/plate/web/Service/GoodsAppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/app-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/app-api/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +69,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -136,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677121405581</updated>
-      <workItem from="1677121406975" duration="8662000" />
+      <workItem from="1677121406975" duration="10449000" />
     </task>
     <servers />
   </component>

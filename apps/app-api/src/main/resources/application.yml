@@ -11,10 +11,10 @@ management:
   endpoints:
     web:
       exposure:
-        include: health, info, refresh
+        include: "*"
       base-path: /actuator
       path-mapping:
         health: health
 
 server:
-  port: 9030
+  port: 8080
