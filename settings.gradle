@@ -7,4 +7,5 @@ findProject(':domains:domain-goods')?.name = 'domain-goods'
 include 'domains'
 include 'domains:domain-goods'
 findProject(':domains:domain-goods')?.name = 'domain-goods'
+include 'auth'
 
